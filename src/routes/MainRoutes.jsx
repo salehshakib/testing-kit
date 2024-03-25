@@ -4,7 +4,7 @@ import HomeDashboard from "../pages/Dashboard/HomeDashboard/HomeDashboard";
 
 export const router = createBrowserRouter([
   {
-    path: "/dashboard",
+    path: "/",
     element: <MainLayout />,
     children: [
       {
